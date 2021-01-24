@@ -1,0 +1,101 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background-size: cover;
+  background-position: center center;
+}
+
+.novel {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.novel .image{
+  text-align: center;
+}
+
+.novel .character {
+  width: 150px;
+}
+
+.novel .box {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.novel .box .name {
+  font-weight: bold;
+  color: #00BCD4;
+  font-size: 20px;
+}
+
+.novel .box .teks {
+  font-size: 15px;
+  line-height: 20px;
+  color: #b3b3b3;
+
+}
+
+.header {
+  padding: 10px;
+  color: #fff;
+}
+
+p {
+  margin-top: 5px;
+}
+
+.preloader {
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 999;
+  background-image: url(assets/images/preloader.jpg);
+  background-size: cover;
+  animation: preloaderBg 7s infinite;
+}
+
+.preloader .content {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+
+@keyframes preloaderBg {
+  0%{background-position: left;}
+  50%{background-position: right;}
+  100%{background-position: left;}
+}
+
+.preloader .content h1 {
+  font-size: 40px;
+}
+
+.preloader .content p {
+  font-size: 15px;
+  margin-top: -17px;
+  color: #888;
+}
+
+@media(min-width: 600px) {
+  .novel {
+    width: 30%;
+  }
+}

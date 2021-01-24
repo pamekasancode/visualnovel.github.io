@@ -1,0 +1,78 @@
+{
+  "backgrounds": ["kosongin", "bg.jpg", "bg2.jpg"],
+  "sfx": "ugh.mp3",
+  "data": 
+  [
+    {
+      "name": "Hachiman",
+      "char": "hachiman.png",
+      "teks": "Hi nga...ngapain mampir kesini? kepo ya?",
+      "bg": 1
+    },
+    {
+      "name": "Hachiman",
+      "char": "hachiman.png",
+      "teks": "Oke kalo kamu kepo ku kasih tau! ini hanya sebuah visual novel absurd aja",
+      "bg": 1
+      
+    },
+    {
+      "name": "Hachiman",
+      "char": "hachiman.png",
+      "teks": "Oke sekarang kamu tau kan? dan ga kepo lagi kan!",
+      "bg": 1
+    },
+    {
+      "name": "Hachiman",
+      "char": "hachiman.png",
+      "teks": "Lah terus ngapain masih tetep disini?",
+      "bg": 1
+    },
+    {
+      "name": "Hachiman",
+      "char": "hachiman.png",
+      "teks": "Kan sudah ku bilang. ini hanya sebatas novel visual yang dikarang pas gabut saja!",
+      "bg": 1
+    },
+    {
+      "name": "Udhin",
+      "char": "udin.png",
+      "teks": "Oke si hachiman itu nak nolep, udah ga usah peduliin abaikan aja gabut aja dia sebenernya hehehe.",
+      "bg": 1
+    },
+    {
+      "name": "Hachiman",
+      "char": "hachiman.png",
+      "teks": "Apa sih ganggu orang aje lu",
+      "bg": 1
+    },
+    {
+      "name": "Udhin",
+      "char": "udin.png",
+      "teks": "Emang ngapa sih ga boleh, sombong amat!",
+      "bg": 1
+    },
+    {
+      "name": "Hachiman",
+      "char": "hachiman.png",
+      "teks": "Gelud bos?",
+      "bg": 1
+    },
+    {
+      "name": "Udhin",
+      "char": "udin.png",
+      "teks": "Hayuk siapa takut",
+      "bg": 1
+    },
+    {
+      "name": "...",
+      "teks": "Pada akhirnya mereka berdua pun gelud <b>Tamat</b>",
+      "bg": 2
+    },
+    {
+      "name": "Bruh",
+      "teks": "Jangan lupa follow instagram admin:v",
+      "bg": 1
+    }
+  ]
+}
